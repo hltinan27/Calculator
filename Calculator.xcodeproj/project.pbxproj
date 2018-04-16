@@ -12,6 +12,7 @@
 		2F44698520804F78002D411E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F44698320804F78002D411E /* Main.storyboard */; };
 		2F44698720804F79002D411E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F44698620804F79002D411E /* Assets.xcassets */; };
 		2F44698A20804F79002D411E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F44698820804F79002D411E /* LaunchScreen.storyboard */; };
+		2F44699220805B21002D411E /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F44699120805B21002D411E /* CalculatorBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		2F44698620804F79002D411E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F44698920804F79002D411E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F44698B20804F79002D411E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F44699120805B21002D411E /* CalculatorBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				2F44698620804F79002D411E /* Assets.xcassets */,
 				2F44698820804F79002D411E /* LaunchScreen.storyboard */,
 				2F44698B20804F79002D411E /* Info.plist */,
+				2F44699120805B21002D411E /* CalculatorBrain.swift */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F44699220805B21002D411E /* CalculatorBrain.swift in Sources */,
 				2F44698220804F78002D411E /* ViewController.swift in Sources */,
 				2F44698020804F78002D411E /* AppDelegate.swift in Sources */,
 			);
